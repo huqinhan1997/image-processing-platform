@@ -66,7 +66,12 @@ import numpy as np
 
 a = np.array(([1,2],[2,3],[4,5]))
 
-print(a.transpose())
 
-b=[0]
-print(b[-1])
+b = [1,2,3,4]
+X = np.linspace(0,2*np.pi,100,dtype=float).reshape(1,100)
+Y = np.sin(X)
+B = np.random.rand(1)
+c = np.reshape(b,(4,1))
+for i in range(5):
+    print(i)
+
